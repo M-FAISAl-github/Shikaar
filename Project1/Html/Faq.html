@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../Css/faq.css">
+<link rel="icon" href="../assets/1123.png" type="icon/png">
+    <!-- Font Awesome Icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Help & Support</title> 
+</head>
+
+<body>
+    <header class="header">
+        <h1>Welcome to Shikaar</h1>
+        <i>"Discover the world at your fingertips with Shikhar, where shopping becomes an adventure."</i>
+      </header>
+      <br>
+      <div id="post">
+    <h2>Frequently Asked Questions</h2>
+    <button class="accordion">How do I place an order?</button>
+    <div class="panel">
+        <p>Placing an order on Shikaar is easy! Simply browse our products, add items to your cart, and proceed to checkout.</p>
+    </div>
+
+    <button class="accordion">What is Shikaar refund policy?</button>
+    <div class="panel">
+        <p><li>Refund against Return orders:</li>the refund is processed if your return claim is deemed valid.</p>
+        <p><li>Refund against Cancelled orders:</li> Refund is automatically triggered once the cancelled.</p>
+    </div>
+
+    <button class="accordion">What payment methods do you accept?</button>
+    <div class="panel">
+        <p>We accept credit/debit cards, PayPal, and other secure payment methods.</p>
+    </div>
+    <button class="accordion">How do I track my order?</button>
+    <div class="panel">
+        <p><li>You can track your order by click on the following link:</li><a style="text-decoration: none; color: blue;" href="https://www.parcelmonitor.com/track-pakistan/">Track my order</a></p>
+    </div>
+    <button class="accordion">What are the expected delivery timelines?</button>
+    <div class="panel">
+        <p>There might be potential delays in your deliveries due to some internal changes within Shikaar.</p>
+    </div>
+    <button class="accordion">How to cancel the order?</button>
+    <div class="panel">
+        <p><h4>Note: Order cancellation is only possible prior to shipping.</h4></p>
+    </div>
+</div>
+    <br>
+     <!--footer section-->
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="./About.html">about us</a></li>
+            <li><a href="./Contact us.html">contact us</a></li>
+            <li><a href="./Privacy_Policy.html">privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#idl">Electronics</a></li>
+            <li><a href="#Cosmatics">Cosmatics</a></li>
+            <li><a href="#Esports">Esports</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <div class="modi">
+    <span class="made">
+    <p>Made by M.FAISAL</p>
+   </span>
+   <span class="make">
+     <p>2024 All rights recived</p>
+    </span>
+   </div>
+   </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+    </script>
+</body>
+
+</html>
